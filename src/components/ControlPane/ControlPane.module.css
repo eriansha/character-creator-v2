@@ -1,4 +1,9 @@
 .controlPane {
+  /*
+    HACK: overflow horizontal should include white-space nowrap
+  */
+  overflow-x: auto;
+  white-space: nowrap;
   padding: 24px;
   /* Optical centering */
   padding-top: 18px;
@@ -15,7 +20,7 @@
 .title {
   margin: 0;
   /* Optical centering */
-  margin-bottom: -4px;
+  margin-bottom: 16px;
 }
 
 .metadata {
