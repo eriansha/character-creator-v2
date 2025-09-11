@@ -1,2 +1,12 @@
 .buttonRow {
+  overflow-x: auto;
+  white-space: nowrap;
+  /** 
+    * to undo parent padding we usually use negative margin 
+    * this changes do not affect to parent so we are still respecting the parent
+  **/
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-bottom: -24px;
+  padding: 24px;
 }
